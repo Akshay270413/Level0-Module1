@@ -7,7 +7,16 @@ if name== "9":
     messagebox.showinfo(title='greeter', message="nice job")
 else:
     messagebox.showinfo(title='greeter', message="Wrong")
-
+name1 = simpledialog.askstring(title='greeter', prompt="Next Riddle... What has 6 faces but does not wear makeup, has 21 eyes but cant see. ")
+if name1== "Dice":
+    messagebox.showinfo(title='greeter', message="nice job")
+else:
+    messagebox.showinfo(title='greeter', message="Wrong")
+name2 = simpledialog.askstring(title='greeter', prompt="Always in you,Sometimes on you;If I surround you, I can kill you")
+if name2== "water":
+    messagebox.showinfo(title='greeter', message="nice job")
+else:
+    messagebox.showinfo(title='greeter', message="Wrong")
 """
 * Write a python program that asks the user a minimum of 3 riddles.
 
